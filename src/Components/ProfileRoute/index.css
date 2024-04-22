@@ -1,0 +1,17 @@
+.profile-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+.profile-container {
+  width: 90%;
+}
+.profile-failuer-container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}

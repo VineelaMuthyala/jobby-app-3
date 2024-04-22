@@ -1,0 +1,113 @@
+@media screen and (min-width: 758px) {
+  .jobs-list-container {
+    height: 100vh;
+    background-color: black;
+  }
+  .jobs-page {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+  }
+  .jobs-page-left {
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .jobs-page-right {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 30px;
+  }
+  ul {
+    padding-left: 0px;
+  }
+  .profile-container {
+    border-radius: 20px;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+    background-size: cover;
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 25px;
+  }
+  .profile-image {
+    border-radius: 50px;
+  }
+  .profile-name {
+    color: #6366f1;
+    font-size: 20px;
+  }
+  .profile-description {
+    color: #2c364c;
+    font-size: 15px;
+    flex-wrap: wrap;
+  }
+  .search-text {
+    margin-left: 10px;
+    background-color: transparent;
+    width: 300px;
+    height: 25px;
+    border: 2px solid #272727;
+    padding-left: 10px;
+    color: white;
+  }
+  .search-icon {
+    color: white;
+    background-color: #272727;
+    border: 2px solid #272727;
+    padding: 3px;
+    height: 25px;
+    width: 30px;
+    margin-top: 3px;
+    border-left: 0px;
+  }
+  .search-button {
+    border: 0px;
+    background-color: transparent;
+    padding: 0px;
+    height: 100%;
+  }
+  .search-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    height: 50px;
+    align-self: flex-start;
+  }
+  .no-jobs-container {
+    color: white;
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  .no-jobs-image {
+    width: 50%;
+  }
+  .no-jobs-failure-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .retry-btn {
+    background-color: #6366f1;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 3px;
+    border: 0px;
+  }
+  .loader-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+}
